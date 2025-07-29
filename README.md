@@ -33,5 +33,4 @@ This repository contains a suite of PowerShell scripts designed for administrato
 
 Each script is standalone and can be executed directly:
 
-```powershell
-.\AllUsersGroups.ps1
+
