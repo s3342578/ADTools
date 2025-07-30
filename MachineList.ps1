@@ -1,5 +1,5 @@
 ﻿# Define the search base (Organizational Unit) where you want to search for computers
-$SearchBase = "DC=begacheese,DC=com DC=au"
+$SearchBase = ""
 
 # Get all computers from the specified OU
 $Workstations = Get-ADComputer -Filter {OperatingSystem -like "*Workstation*"} -SearchBase $SearchBase -Properties Name,OperatingSystem
