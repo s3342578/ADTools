@@ -2,10 +2,10 @@
 Import-Module ActiveDirectory
 
 # Define the groups to search, including the new group
-$groups = @("VPN Users", "G S PPTP VPN Access", "Citrix_AAC VPN Access", "G S Covid19 VPN Users", "G S SSLVPN Users", "G S VPN Users")
+$groups = @("")
 
 # Define the OU to check for
-$ouFilter = "OU=External Contractors,DC=begacheese,DC=com,DC=au"
+$ouFilter = ""
 
 # Initialize an empty array to store results
 $results = @()
@@ -45,4 +45,4 @@ $results | Format-Table -AutoSize
 
 
 # Optionally, you can export the results to a CSV file
-$results | Export-Csv -Path "C:\Users\admnicholas\Desktop\exported_usersEXTGroups.csv" -NoTypeInformation
+$results | Export-Csv -Path "C:\Users\*.csv" -NoTypeInformation
