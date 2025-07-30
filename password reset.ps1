@@ -1,6 +1,6 @@
 ﻿# Specify the username and new password
-$Username = "centum"
-$NewPassword = "CENTUM"
+$Username = ""
+$NewPassword = ""
 
 # Disable password complexity requirements
 #secedit /export /cfg C:\secpol.cfg
