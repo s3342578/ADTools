@@ -2,8 +2,6 @@
 
 This repository contains a suite of PowerShell scripts designed for administrators to audit and extract critical data from Active Directory (AD) environments. These scripts help with compliance, reporting, and security review tasks.
 
-> **Note**: All scripts have been reviewed and **contain no employer- or organization-specific identifiers**. They are generic and safe to use or redistribute.
-
 ---
 
 ## Scripts Overview
