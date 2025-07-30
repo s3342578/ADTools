@@ -1,5 +1,5 @@
 ﻿# Define the search base (OU) where the disabled computers are located
-$SearchBase = "OU=Disabled Computers,DC=begacheese,DC=com,DC=au"
+$SearchBase = "OU="
 
 # Export the results to a CSV file
 $ExportPath = "C:\Temp\AllDisabledComputers.csv"
